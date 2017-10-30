@@ -21,15 +21,21 @@ h3 {
 
 .banner {
   color: white;
-  background-image: url('./images/the-flatiron-building.png');
+  background-image: url("../images/the-flatiron-building.png");
 }
 
-.nav {
+.nav a {
   font-size: 18px;
+  color: white;
+}
+
+.nav li {
+  line-height: 1.5;
 }
 
 .footer {
   font-size: 11px;
+  text-align: left;
   background-color: dimgray;
   color: white;
 }
